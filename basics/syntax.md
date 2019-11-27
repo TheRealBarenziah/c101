@@ -31,7 +31,8 @@ c = (unsigned char)n;
 // c value is now 65 (321 % 256) (2)
 // in ASCII that means c is now 'A'
 ```
-(1) : So `char x = 'Z'` is equivalent to `char x = 90`, 90 being the ASCII code for 'Z'
-(2) : 256 come from the number of different values an `unsigned char` can hold
+(1) : So `char x = 'Z'` is equivalent to `char x = 90`, 90 being the ASCII code for 'Z'  
+(2) : 256 come from the number of different values an `unsigned char` can hold  
+
 [1]: https://stackoverflow.com/questions/247873/signed-versus-unsigned-integers
 [2]: https://medium.com/@nickteixeira/how-to-explain-to-my-wife-what-i-do-how-do-you-get-the-maximum-and-minimum-values-for-integer-befdc263a3a2
