@@ -22,9 +22,9 @@
 
 ## Resources
 
-[95% you will find on this awesome resource list][4]
-[Remaining 5%, you will find in Medium articles or Stack Overflow][5]
-[Link to GitHub WASM account just in case][6]
+[95% you will find on this awesome resource list][4]  
+[Remaining 5%, you will find in Medium articles or Stack Overflow][5]  
+[Link to GitHub WASM account just in case][6]  
 
 (1): `-Wall` will display all Warnings, `foo.c` is target file, `-o foo` will output an executable named `foo`  
 (2): `fibo.c` is target, `-s` tells *emcc* to generate LLVM bitcode, `WASM=1` WASM=true, `-o fibo.html` output an HTML file named fibo  
