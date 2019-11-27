@@ -9,7 +9,7 @@
 - II) `gcc -Wall foo.c -o foo` (`-Wall` will display all Warnings, `foo.c` is target file, `-o foo` will output an executable named `foo`)
 - III) Now run executable in terminal: `./foo`
 
-## Compile into pure WASM
+## Compile into WASM
 - O) `sudo apt-get install python2.7 && sudo apt-get install cmake && sudo apt-get install default-jre && sudo apt-get install git-core`
 - I) Get [emsdk](https://emscripten.org/docs/getting_started/downloads.html#platform-specific-notes)
 - II) Put this in your ~/.bashrc: `source $HOME/emsdk/emsdk_env.sh &> /dev/null`
@@ -23,6 +23,9 @@
 
 ## Resources
 
+[One repo to rule them all][4]
+
 [1]: https://github.com/mbasso/awesome-wasm#javascript-family
 [2]: https://tutorialzine.com/2017/06/getting-started-with-web-assembly
 [3]: https://flaviocopes.com/webassembly/
+[4]: https://github.com/mbasso/awesome-wasm
