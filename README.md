@@ -1,7 +1,7 @@
 # C 101
 ### Notes & playground for JS kiddies such as myself
 
-![Me](https://i.ibb.co/PFq8Lph/c.png)
+![Me](https://i.ibb.co/6YNq9XP/clol.png)
 
 ## Compile into bin (executable)
 - NaN) Get `gcc`
