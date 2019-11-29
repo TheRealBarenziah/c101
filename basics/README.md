@@ -33,9 +33,9 @@ c = (unsigned char)n;
 ```
 
 ## Import libraries
-Far from `npm install x` `var x = require('x')`.  
+Surprisingly `npm install x` && `var x = require('x')` won't work.  
 The `require('lib')` is somewhat equivalent to `include <lib>`  
-However you also have to explicitly tell `gcc` what it needs to import  
+The `npm install` equivalent is the moment you explicitly tell `gcc` what library it will need
 [See this for details][4]
 
 
