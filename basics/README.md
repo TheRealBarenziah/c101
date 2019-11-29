@@ -32,11 +32,20 @@ c = (unsigned char)n;
 // in ASCII that means c is now 'A'
 ```
 
+## Import libraries
+Far from `npm install x` `var x = require('x')`.  
+The `require('lib')` is somewhat equivalent to `include <lib>`  
+However you also have to explicitly tell `gcc` what it needs to import  
+[See this for details][4]
+
+
 ## Arrays
-[Dynamic arrays in C][3] (tl;dr : arrays are fixed size in C, so you gotta DIY)
+[Dynamic arrays in C][3] (tl;dr : arrays are fixed size in C, so you gotta DIY)  
+
 (1) : So `char x = 'Z'` is equivalent to `char x = 90`, 90 being the ASCII code for 'Z'  
 (2) : 256 come from the number of different values an `unsigned char` can hold  
 
 [1]: https://stackoverflow.com/questions/247873/signed-versus-unsigned-integers
 [2]: https://medium.com/@nickteixeira/how-to-explain-to-my-wife-what-i-do-how-do-you-get-the-maximum-and-minimum-values-for-integer-befdc263a3a2
 [3]: https://medium.com/@imjacobclark/working-with-dynamic-arrays-in-c-c7d40a3cea01
+[4]: https://github.com/TheRealBarenziah/c101/blob/master/basics/exercices/f_of_x.c
