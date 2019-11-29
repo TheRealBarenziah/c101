@@ -21,9 +21,6 @@
 [Incoming][2]  
 [...][3]  
 
-## Computer science resources (I guess once you've read it all, you truly know kung-fu)  
-[Awesome resource about awesome resources][7]  
-
 ## C Resources
 [C as in Caterpillar/Crocodile][8]  
 [The Bible][9]  
@@ -34,7 +31,10 @@
 [WAT (WebAssemblyText, the human-readable version of WASM)][12]  
 [WASM GitHub][6]  
 
-## WASM looks awesome but C makes me cry. I'm a JavaScript kid just like you. What to do ?  
+## Computer science resources (Read it all and you'll know Kung-Fu / become One with the Force)  
+[Awesome resource about awesome resources (sometimes about even more awesome resources)][7]  
+
+## WASM looks awesome but C makes me want to cry. What to do ?  
 [AssemblyScript][15] seems to be perfect for you: the power of WASM without the hassle of learning a new language  
 
 ## asm.js
