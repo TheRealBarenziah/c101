@@ -1,13 +1,27 @@
 #include <stdio.h>
 #include <math.h>
-/* f(x) = (2*x + 3)(3*x² + 2) */
 
-int main(void) {
-  float input, output;
+/* 
+f(x) = (2*x + 3)(3*x² + 2) 
+
+f'(x) = (f(x+h)-f(x)) / h
+*/
+
+float f_prime_of_x(int input_x, int input_h){
+  float input_x, input_y;
+
+}
+
+float f_of_x(int input){
+  float output;
   printf("Please enter a number \n");
   scanf("%f", &input);
   output=(2*input+3)*(3*pow(input,(float)2)+2);
   printf("f(x) of this is = %f \n", output);
+}
+
+int main(void) {
+ 
   return 0;
 }
 
