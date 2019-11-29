@@ -7,21 +7,32 @@ f(x) = (2*x + 3)(3*x² + 2)
 f'(x) = (f(x+h)-f(x)) / h
 */
 
-float f_prime_of_x(int input_x, int input_h){
-  float input_x, input_y;
-
-}
-
 float f_of_x(int input){
   float output;
   printf("Please enter a number \n");
   scanf("%f", &input);
-  output=(2*input+3)*(3*pow(input,(float)2)+2);
+  output = (2 * input + 3) * (3 * pow(input, (float)2) + 2);
   printf("f(x) of this is = %f \n", output);
 }
 
-int main(void) {
- 
+float f_of_xh(int x, int h){
+  return x + h;
+}
+
+float f_prime_of_x(int x, int h){
+  float output;
+  output = (f_of_xh(x, h) - f_of_x(x));
+  return output;
+}
+
+int main(void){
+  float input_x, input_h, output;
+  printf("(f(x+h)-f(x))/h \n");
+  printf("Please enter x : \n");
+  scanf("%f", &input_x);
+  printf("Please enter h : \n");
+  scanf("%f", &input_h);
+  output = f_prime_of_x(input_x, input_h);
   return 0;
 }
 
