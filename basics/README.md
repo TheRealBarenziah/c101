@@ -1,11 +1,11 @@
 ## Labels
 
-`type identifier;`
-Declare uninitialized variable.
-`type identifier = value;`
-Declare variable initialized with value.
-`type identifier, identifier2 = value;`
-Declare two variables of a certain type; only `identifier2` is initialized.
+`type identifier;`  
+Declare uninitialized variable.  
+`type identifier = value;`  
+Declare variable initialized with value.  
+`type identifier, identifier2 = value;`  
+Declare two variables of a certain type; only `identifier2` is initialized.  
 
 ## Primitives types
 - `int` : 32-bit integer (min = -2147483648, max = 2147483647)
@@ -40,7 +40,7 @@ However you also have to explicitly tell `gcc` what it needs to import
 
 
 ## Arrays
-[Dynamic arrays in C][3] (tl;dr : arrays are fixed size in C, so you gotta DIY)  
+[Dynamic arrays in C][3] (long story short: arrays are fixed size in C so you gotta DIY)  
 
 (1) : So `char x = 'Z'` is equivalent to `char x = 90`, 90 being the ASCII code for 'Z'  
 (2) : 256 come from the number of different values an `unsigned char` can hold  
