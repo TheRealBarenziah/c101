@@ -12,7 +12,7 @@ Need:
 - function returning the height of the fall after 't' input
 - function calculating total duration of the fall providing the 'h' height input
 
-(tip: sqrt() de math.l = square)
+(tip: use sqrt(); math.h method)
 
 */
 
@@ -35,6 +35,7 @@ int main(void) {
   printf("Please enter height of the fall :  \n");
   scanf("%f", &input1);
   output = time_of_fall(input1);
+  // printf("The ball falled from %f meters \n", output);
   printf("The ball falled %f seconds \n", output);
   return 0;
 }
